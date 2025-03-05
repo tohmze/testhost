@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tomi Test - Work</title><link href="/" rel="alternate"></link><link href="/feeds/work.atom.xml" rel="self"></link><id>/</id><updated>2025-02-25T09:38:00-06:00</updated><entry><title>Resume</title><link href="/resume.html" rel="alternate"></link><published>2025-02-25T09:38:00-06:00</published><updated>2025-02-25T09:38:00-06:00</updated><author><name>Tomi B</name></author><id>tag:None,2025-02-25:/resume.html</id><summary type="html">&lt;h1&gt;Oluwatomisin Bickersteth&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tomi Test - Work</title><link href="https://tohmze.github.io/testhost/" rel="alternate"></link><link href="https://tohmze.github.io/testhost/feeds/work.atom.xml" rel="self"></link><id>https://tohmze.github.io/testhost/</id><updated>2025-02-25T09:38:00-06:00</updated><entry><title>Resume</title><link href="https://tohmze.github.io/testhost/resume.html" rel="alternate"></link><published>2025-02-25T09:38:00-06:00</published><updated>2025-02-25T09:38:00-06:00</updated><author><name>Tomi B</name></author><id>tag:tohmze.github.io,2025-02-25:/testhost/resume.html</id><summary type="html">&lt;h1&gt;Oluwatomisin Bickersteth&lt;/h1&gt;
 &lt;h3&gt;Education&lt;/h3&gt;
 &lt;p&gt;University of Mantioba&lt;br&gt;
 Winnipeg, Manitoba.&lt;br&gt;
