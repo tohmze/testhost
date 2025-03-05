@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tomi Test - Work</title><link href="/" rel="alternate"></link><link href="/feeds/work.atom.xml" rel="self"></link><id>/</id><updated>2025-02-25T09:38:00-06:00</updated><entry><title>Resume</title><link href="/resume.html" rel="alternate"></link><published>2025-02-25T09:38:00-06:00</published><updated>2025-02-25T09:38:00-06:00</updated><author><name>Tomi B</name></author><id>tag:None,2025-02-25:/resume.html</id><summary type="html">&lt;h1&gt;Oluwatomisin Bickersteth&lt;/h1&gt;
+&lt;h3&gt;Education&lt;/h3&gt;
+&lt;p&gt;University of Mantioba&lt;br&gt;
+Winnipeg, Manitoba.&lt;br&gt;
+2022- 2026&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt;  Data Structures and Algorithms, Programming Standards and Practices, Discrete
+Mathematics, Computing: Ideas and Innovation, Object Oriented Programming, Computer Systems, Statistics&lt;/p&gt;
+&lt;h3&gt;Experience&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h4&gt;Software Engineer Intern&lt;/h4&gt;
+&lt;h5&gt;Amazon (Amazon Web Services)&lt;/h5&gt;
+&lt;h6&gt;Vancouver, BC | June 2024 - August 2024&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed and implemented an …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Oluwatomisin Bickersteth&lt;/h1&gt;
+&lt;h3&gt;Education&lt;/h3&gt;
+&lt;p&gt;University of Mantioba&lt;br&gt;
+Winnipeg, Manitoba.&lt;br&gt;
+2022- 2026&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt;  Data Structures and Algorithms, Programming Standards and Practices, Discrete
+Mathematics, Computing: Ideas and Innovation, Object Oriented Programming, Computer Systems, Statistics&lt;/p&gt;
+&lt;h3&gt;Experience&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h4&gt;Software Engineer Intern&lt;/h4&gt;
+&lt;h5&gt;Amazon (Amazon Web Services)&lt;/h5&gt;
+&lt;h6&gt;Vancouver, BC | June 2024 - August 2024&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed and implemented an engine for AWS Glue to improve the deployment framework, enabling individual,
+conflict-free connector deployments, reducing deployment time, and improving efficiency.&lt;/li&gt;
+&lt;li&gt;Collaborated with engineers to optimize the deployment process, facilitating smoother integration and enhancing
+the overall scalability of AWS services.&lt;/li&gt;
+&lt;li&gt;Created design and technical documentation for intern project, including a migration plan to ensure smooth
+adoption across teams, improving project continuity and knowledge transfer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Data Processing Intern&lt;/h4&gt;
+&lt;h5&gt;Federated Insurance Company of Canada&lt;/h5&gt;
+&lt;h6&gt;Winnipeg, MB | May 2023 - August 2023&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintained and updated the client database, ensuring accurate and complete client information for informed
+decision-making.&lt;/li&gt;
+&lt;li&gt;Implemented a data entry process that increased client data entry speeds by 50%, improving overall efficiency.&lt;/li&gt;
+&lt;li&gt;Managed client files with systematic labelling and organization, facilitating quick access to client information and
+minimizing search times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Projects&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h4&gt;Color Pal (AI Color Palette Generator)&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/tohmze"&gt;GitHub&lt;/a&gt;
+* Designed and implemented a highly efficient and accurate color palette generator, leveraging the power of OpenAI’s
+API and using a combination of HTML, CSS, JavaScript, Python, and Flask.&lt;/p&gt;
+&lt;h4&gt;LLaMA Story&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/tohmze"&gt;GitHub&lt;/a&gt;
+* Designed and implemented a dynamic SMS-based storytelling platform, utilizing Twilio’s API, React, and
+Node.js, allowing two users to collaboratively create a story. Integrated LLaMA for AI-generated visual
+representations of the story and enabled seamless communication between users via SMS.&lt;/p&gt;
+&lt;h4&gt;Garbage Collector&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/tohmze"&gt;GitHub&lt;/a&gt;
+* Implemented a garbage collector in C and C++ that uses a mark and sweep algorithm to provide automatic
+memory management, optimize resource utilization, prevent memory leaks, and enhance overall performance and
+stability for handling generic data.&lt;/p&gt;
+&lt;h4&gt;Command Line Code Review&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/tohmze"&gt;GitHub&lt;/a&gt;
+* Created a versatile code reviewer tool in Python, capable of analyzing files from any programming language.
+* Effectively identifies errors and provides insightful suggestions for improving code quality and adhering to best practices&lt;/p&gt;
+&lt;h3&gt;Technical Skills&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C, C++, R, Swift, JavaScript, TypeScript, HTML/CSS. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Git, Linux, React, NodeJS, Jupyter, Figma, Angular, Flask, REST APIs, MongoDB, AWS CDK&lt;/p&gt;
+&lt;h3&gt;Leadership/Extracurricular&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Student Advocate, UM Computer Science Student Association&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sept 2023 - Apr 2024&lt;/p&gt;
+&lt;p&gt;Advocated for student needs by facilitating communication with administration and implementing support initiatives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Volunteer Tutor, CanU Canada&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;May 2023&lt;/p&gt;
+&lt;p&gt;Tutored 35 students, grades 5 to 12, in a 5-week website development workshop using HTML, CSS, and JavaScript.&lt;/p&gt;</content><category term="Work"></category></entry></feed>
