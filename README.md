@@ -1,7 +1,7 @@
 # Formatting and Hosting a Resume
 
 ## Statement of Purpose  
-This guide explains how to format a resume using Markdown and host it on a Forge. It is designed for anyone looking to share their resume online. Additionally, it includes resources for learning more about creating Markdown documents.  
+This guide walks you through the process of formatting a resume using Markdown and hosting it on Forge. It’s perfect for anyone who wants to share their resume online. You’ll also find helpful resources to dive deeper into creating Markdown documents.
 
 ## Prerequisites  
 * Create an account on [GitHub](https://github.com/)  
@@ -17,18 +17,15 @@ python -m pip install ghp-import
 ```  
 
 ## Instructions  
-(\*) refers to all steps.  
-(1,2,4) refers to individual steps.  
 
-* **Select the correct technical level:** The appropriate technical level was chosen based on the intended audience, ensuring clear and accessible language.  
-* **Follow the ABC format:** The guide follows the ABC format, including a prerequisite section, a body, and a conclusion.  
-* **Use numbered lists in the body:** Numbered lists were used in (\*) steps.  
-* **Group steps under task headings:** Steps were categorized under specific task headings: "Setting Up Pelican Structure," "Creating a Resume in Markdown," "Adding a Theme to Markdown," and "Hosting on Forge."  
-* **Place only one action in each step:** Each step contains only one action in (\*) steps.  
-* **Use graphics:** Graphics were included in step 13.  
-* **Maintain a simple style:** A clear and concise writing style was used throughout to ensure smooth progression between steps.  
+* **Use Static Site Generators**: In the “Setting Up the Structure” section: Instead of using heavy tools like word processors or PDFs, static site generators make it easier and more efficient to build websites.
+* **Version Control for Docs**: In the “Hosting” section: By using Git to store documentation alongside the project, updates are simple, and everyone can collaborate without hassle.
+* **Minimalist and User-Centered Writing**: Throughout the documentation: The instructions are clear and to the point, focusing on what users actually need to do, with no unnecessary details to get in the way.
+* **Automate Documentation Deployment**:In the “Hosting” section: Automation tools like CI/CD, ghp-import, and GitHub Pages handle deployment, keeping everything up to date without you having to do anything manually.
+* **Keep Documentation Close to Code**  
+  In the “Setting Up Pelican” sections: By storing the documentation in the same place as the project code, it’s much easier to keep everything in sync and make updates as needed.
+* **Include Inline Examples**: In the “Project Setup” and “Customization” sections: Real-life examples are included to help clarify important concepts, making it easier to understand and follow the steps.
 
----
 
 ## Setting Up Pelican Structure  
 
@@ -48,6 +45,7 @@ pelican-quickstart
 ```  
 
 4. Answer the following prompts:  
+__Note__: The following are placeholder values and can be changed.   
 > **Where do you want to create your new website?** `[.]`  
 > **What will be the title of this website?** `Panda Resume`  
 > **Who will be the author of this website?** `Peter Panda`  
@@ -64,7 +62,6 @@ pelican-quickstart
 > **Do you want to upload your website using Rackspace Cloud Files?** **(y/N)**  
 > **Do you want to upload your website using GitHub Pages?** **(y/N)**  
 
----
 
 ## Creating a Resume in Markdown  
 
@@ -87,89 +84,85 @@ Category: Work
 # First Name Last Name
 ```
 
----
-
 ## Adding a Theme to the Pelican Site  
 8. Go back to directory root:
 ``` sh
 cd ~/projects/yoursite
 ```
 
-8. Install pelican-themes:  
+9. Install pelican-themes:  
 ```sh
 git clone https://github.com/MrSenko/pelican-octopress-theme.git
 ```  
 
-9. Open `pelicanconf.py` and insert the following to change the theme:  
+10. Open `pelicanconf.py` and add these settings:  
 ```python
 import os
 THEME = os.path.abspath("pelican-octopress-theme")
 ```  
 
-10. Build your site:
+11. Build your site:
 ``` sh
 pelican content
 ```
 
-10. Preview your site:  
+12. Preview your site:  
 ```sh
 pelican --listen
 ```  
 
----
 
 ## Hosting on Forge  
 
-11. Initialize Git in the project folder:  
+13. Initialize Git in the project folder:  
 ```sh
 git init
 ```  
 
-12. Go to [GitHub](https://github.com/) and create a repository.  
+14. Go to [GitHub](https://github.com/) and create a repository.  
 
-13. Clone the repository to your local machine:  
+15. Link repository to your local machine:  
 ```sh
 git remote add origin https://github.com/username/reponame.git
 ```  
 
-14. Adjust `publishconf.py` to match the repository:  
+16. Open `publishconf.py` and add these settings:  
 ```python
 SITEURL = "https://your-github-username.github.io/your-repo-name"
 RELATIVE_URLS = False
 OUTPUT_PATH = "docs/"
 ```  
 
-15. Stage changes:  
+17. Stage changes:  
 ```sh
 git add .
 ```  
 
-16. Commit changes:  
+18. Commit changes:  
 ```sh
-git commit -am "Added resume"
+git commit -m "Added resume"
 ```  
 
-17. Build the site with Pelican:  
+19. Build the site with Pelican:  
 ```sh
 pelican content -s publishconf.py
 ```  
 
-18. Move output to the `gh-pages` branch:  
+20. Move output to the `gh-pages` branch:  
 ```sh
 ghp-import output -b gh-pages
 ```  
 
-19. Push to GitHub:  
+21. Push to GitHub:  
 ```sh
 git push origin gh-pages
 ```  
 
-20. View your website on GitHub Pages:  
+22. View your website on GitHub Pages:  
 ```
 https://username.github.io/reponame
 ```
 
----
 
 ## Further Resources  
 Listed below are additional resources to deepen your understanding of the tools used in this guide:  
@@ -180,7 +173,6 @@ Listed below are additional resources to deepen your understanding of the tools 
 4. [How To Write A Good Resume](https://hbr.org/2022/05/how-to-write-a-resume-that-will-stand-out)
 5. [How To Use Git](https://docs.github.com/en/get-started/using-git)
 
----
 
 ## FAQs  
 
@@ -189,28 +181,30 @@ Listed below are additional resources to deepen your understanding of the tools 
 Markdown is a lightweight markup language that simplifies text formatting. It is preferable to raw HTML because it does not require complex tags, making it faster and easier to use.  
 
 * What if I don’t want to use GitHub Pages?  
-You can use other hosting options like Netlify, Vercel, or a self-hosted server. You’ll need to adjust your publishing process accordingly.
+You can use other hosting options like Hugo, or a self-hosted server. You’ll need to adjust your publishing process accordingly.
 
 * Can I use a different Pelican theme?  
-Yes! You can find and install other themes from Pelican Themes. Just update the THEME variable in pelicanconf.py.
+Yes! You can find and install other themes from Pelican Themes. Just update the THEME variable in ```pelicanconf.py```.
 
 * How do I update my resume after publishing?  
-Edit resume.md, then rebuild the site with pelican content -s publishconf.py, and push the updated version to GitHub Pages using ghp-import.
+Edit resume.md, then rebuild the site with ```pelican content -s publishconf.py```, and push the updated version to GitHub Pages using ```ghp-import```.
 
 * Do I need to run pelican-quickstart every time I update my resume?  
 No, pelican-quickstart is only needed when setting up a new site. After that, just update your content and rebuild the site.
 
 ### Technical Troubleshooting
 * Why is my theme not showing up?  
-Ensure the THEME variable in pelicanconf.py is correctly set to the theme’s path. Also, check that the theme is installed properly.
+Ensure the THEME variable in ```pelicanconf.py``` is correctly set to the theme’s path. Also, check that the theme is installed properly.
 
 * My resume is not updating on GitHub Pages. What should I do?  
-Make sure you’ve run pelican content -s publishconf.py, used ghp-import output -b gh-pages, and pushed your changes with git push origin gh-pages.
+Make sure you’ve run ```pelican content -s publishconf.py```, used ```ghp-import output -b gh-pages```, and pushed your changes with git push ```origin gh-pages```.
 
 * Why is my site showing a 404 error on GitHub Pages?  
-Check if the gh-pages branch is set as the deployment source in your repository settings under GitHub Pages.
+Check if the ```gh-pages``` branch is set as the deployment source in your repository settings under GitHub Pages.
 
----
+
 
 ## Credits  
-This guide was created to help individuals format and host their resumes online using Pelican and GitHub Pages.  
+**Wriiten by:** Oluwatomisin Bickersteth  
+**Reviewed by:** Brett Loewen  
+**Theme:**  [Octopress]()
